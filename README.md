@@ -8,7 +8,7 @@ This training course was adapted form the machine learning accelerator materials
 
 For the CV1 lab, we will be using GPU SageMaker notebook instances. You will need to request a limit increase +1 for a p2 instance.
 
-1. Increase your [SageMaker Limits](https://sagemaker-tools.corp.amazon.com/limits)
+1. Increase your [SageMaker Limits](https://sagemaker-tools.corp.amazon.com/limits). If you already have a limit of 1 (not the default), you can skip this section.
 
 2. Enter your account and preferred region
 
@@ -55,9 +55,8 @@ Read all the [day 1 lessons](https://mla.corp.amazon.com/computer-vision-i/day-1
 After reading thru the materials [watch the day 1 lecture](https://drive.corp.amazon.com/documents/MLU%20Lectures/MLA/CV/March%2023-25,%202020/MLA-CV_DAY1_BRENT.mp4). Refer back to reading materials, ask question in chime, and stop and take tutorials for topics you dont understand.
 
 #### Lab
-Work through the lab for this week "day1/Gluon Image Classification Example". Attempt your first submission using the test data set on your trained model, by adapting "day1/Submission and Dataset Access" notebook. **Do not use the submission info on the above pages**. The submission info is below:
+Work through the lab for this week "day1/Gluon Image Classification Example". Attempt your first submission using the test data set on your trained model, by adapting "day1/Submission and Dataset Access" notebook. Use the submission info on this page. The leader board resets every Saturday, and is used globally.
 
-**leader board not yet implemented. ETA Wednesday**
 
 #### Office Hours
 During office hours we will walk through the "Gluon Image Classification Example", and then answer any questions.

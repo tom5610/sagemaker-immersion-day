@@ -43,6 +43,7 @@ Now create a SageMaker notebook in the same region. Use the following settings:
 If you see resource limit exceeded error, check you increased limits in same region,a nd that you dont have any other notebooks of that instance type running.
 * Wait for the notebook to start. 
 * Open with Jupyter. 
+* You should see all the course notebooks pulled from the git repo.
 
 
 ![Create Notebook](img/notebook_screen1.png)

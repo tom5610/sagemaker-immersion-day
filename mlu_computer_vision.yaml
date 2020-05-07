@@ -94,6 +94,23 @@ Parameters:
 
       set -e
 
+      # Install required library
+      sudo -u ec2-user -i <<'EOF'
+      # PARAMETERS
+      PACKAGE=scikit-image
+      ENVIRONMENT=mxnet_p36
+
+      source /home/ec2-user/anaconda3/bin/activate "$ENVIRONMENT"
+      pip install --upgrade "$PACKAGE"
+      source /home/ec2-user/anaconda3/bin/deactivate
+
+      # PARAMETERS - install scikit-image on python3 environment
+      ENVIRONMENT=python3
+
+      source /home/ec2-user/anaconda3/bin/activate "$ENVIRONMENT"
+      pip install --upgrade "$PACKAGE"
+      source /home/ec2-user/anaconda3/bin/deactivate
+
       # Download dataset (if removed from tmp folder)
       BASEURL="https://d8mrh1kj01ho9.cloudfront.net/workshop/cv1/data/"
       FILES='example_dataset.pkl training_data.pkl test_data.pkl sample_model_output.csv'

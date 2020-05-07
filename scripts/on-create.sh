@@ -12,7 +12,14 @@ source /home/ec2-user/anaconda3/bin/activate "$ENVIRONMENT"
 pip install --upgrade "$PACKAGE"
 source /home/ec2-user/anaconda3/bin/deactivate
 
-# Downnload data
+# PARAMETERS - install scikit-image on python3 environment
+ENVIRONMENT=python3
+
+source /home/ec2-user/anaconda3/bin/activate "$ENVIRONMENT"
+pip install --upgrade "$PACKAGE"
+source /home/ec2-user/anaconda3/bin/deactivate
+
+# Downnload dataset
 BASEURL="https://d8mrh1kj01ho9.cloudfront.net/workshop/cv1/data/"
 FILES='example_dataset.pkl training_data.pkl test_data.pkl sample_model_output.csv'
 

@@ -9,7 +9,7 @@ This is a collection training resources used for new TFC members. The original g
 
 2. Download the cloudformation template
 
-Download the cloudformation template [here](/raw/master/mlu_computer_vision.yaml) right click 'Save As' and download the cloudformation template.
+Download the cloudformation template [here](/../../raw/master/mlu_computer_vision.yaml) right click 'Save As' and download the cloudformation template.
 
 **Note** Make sure you save the file as a .yaml file.
 

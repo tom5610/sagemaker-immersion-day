@@ -20,7 +20,7 @@ This is a collection training resources used for new TFC members. The original g
 
     [![Launch Stack](https://s3.amazonaws.com/cloudformation-examples/cloudformation-launch-stack.png)](https://console.aws.amazon.com/cloudformation/home#/stacks/new?stackName=APAC-TFC-Training)
 
-**Note** You may need to select the region where the p2 instance is available.
+    **Note** You may need to select the region where the p2 instance is available.
 
 4. Upload the cloud formation template
 

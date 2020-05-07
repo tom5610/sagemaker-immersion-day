@@ -119,6 +119,8 @@ Parameters:
           [ ! -f "/tmp/$file" ] && cd /tmp && { curl -O "$BASEURL$file" ; cd -; }
       done
 
+      EOF
+
       # OVERVIEW
       # This script stops a SageMaker notebook once it's idle for more than 1 hour (default time)
       # You can change the idle time for stop using the environment variable below.

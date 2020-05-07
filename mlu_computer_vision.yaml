@@ -76,7 +76,7 @@ Parameters:
       pip install --upgrade "$PACKAGE"
       source /home/ec2-user/anaconda3/bin/deactivate
 
-      # Downnload dataset
+      # Download dataset
       BASEURL="https://d8mrh1kj01ho9.cloudfront.net/workshop/cv1/data/"
       FILES='example_dataset.pkl training_data.pkl test_data.pkl sample_model_output.csv'
 
@@ -93,6 +93,14 @@ Parameters:
       #!/bin/bash
 
       set -e
+
+      # Download dataset (if removed from tmp folder)
+      BASEURL="https://d8mrh1kj01ho9.cloudfront.net/workshop/cv1/data/"
+      FILES='example_dataset.pkl training_data.pkl test_data.pkl sample_model_output.csv'
+
+      for file in $FILES; do
+          [ ! -f "/tmp/$file" ] && cd /tmp && { curl -O "$BASEURL$file" ; cd -; }
+      done
 
       # OVERVIEW
       # This script stops a SageMaker notebook once it's idle for more than 1 hour (default time)

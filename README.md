@@ -3,6 +3,7 @@ This is a collection training resources used for new TFC members. The original g
 
 ## Setup
 1. Request GPU limit increase 
+    
     For the CV1 lab, we will be using GPU SageMaker notebook instances. You will need to request a limit increase +1 for a p2 instance.
 
     Instructions for limit increase are [here](Setup.ipynb).

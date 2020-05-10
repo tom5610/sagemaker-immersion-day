@@ -65,13 +65,7 @@ Parameters:
       ENVIRONMENT=mxnet_p36
 
       source /home/ec2-user/anaconda3/bin/activate "$ENVIRONMENT"
-      nohup pip install --upgrade pip "$PACKAGE" &
-      source /home/ec2-user/anaconda3/bin/deactivate
-
-      # PARAMETERS - install scikit-image on python3 environment
-      ENVIRONMENT=python3
-
-      source /home/ec2-user/anaconda3/bin/activate "$ENVIRONMENT"
+      pip install --upgrade pip
       nohup pip install --upgrade pip "$PACKAGE" &
       source /home/ec2-user/anaconda3/bin/deactivate
 

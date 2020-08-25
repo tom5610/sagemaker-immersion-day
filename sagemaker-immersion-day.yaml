@@ -1,7 +1,7 @@
 ---
 AWSTemplateFormatVersion: '2010-09-09'
 
-Description: IAM Policies, and SageMaker Notebook to work with MLU Computer Vision.
+Description: CFN template for spinning up Amazon SageMaker Notebook instance for Immersion Day training.
 
 Metadata: 
   AWS::CloudFormation::Interface: 
@@ -25,12 +25,12 @@ Parameters:
 
   NotebookName:
     Type: String
-    Default: tfc-training
-    Description: Enter the name of the SageMaker notebook instance. Default is tfc-training.
+    Default: SageMaker-Immersion-Day
+    Description: Enter the name of the SageMaker notebook instance.
 
   VolumeSize:
     Type: Number
-    Default: 5
+    Default: 10
     MinValue: 5
     MaxValue: 16384
     ConstraintDescription: Must be an integer between 5 (GB) and 16384 (16 TB).
@@ -38,18 +38,18 @@ Parameters:
 
   CodeRepository:
     Type: String
-    Default: https://github.com/glyfnet/apac-tfc-training.git
-    Description: Code respository to use with notebook
+    Default: https://github.com/tom5610/sagemaker-immersion-day.git
+    Description: Code respository to use with notebooks
 
   NotebookInstanceType:
     Type: String
-    Default: ml.p2.xlarge
-    Description: Enter the SageMaker notebook instance type. Default is ml.p2.xlarge
+    Default: ml.t2.large
+    Description: Enter the SageMaker notebook instance type. 
 
   NotebookLifecycleName:
     Type: String
-    Default: tfc-training-lifecycle
-    Description: Notebook lifecycle name. Default is tfc-training-lifecycle
+    Default: notebook-instance-lifecycle
+    Description: Notebook lifecycle name. 
 
   NotebookLifecycleOnStart:
     Type: String
@@ -60,23 +60,7 @@ Parameters:
 
       # Install required library
       sudo -u ec2-user -i <<'EOF'
-      # PARAMETERS
-      PACKAGE=scikit-image
-      ENVIRONMENT=mxnet_p36
-
-      source /home/ec2-user/anaconda3/bin/activate "$ENVIRONMENT"
-      pip install --upgrade pip
-      nohup pip install --upgrade pip "$PACKAGE" &
-      source /home/ec2-user/anaconda3/bin/deactivate
-
-      # Download dataset (if removed from tmp folder)
-      BASEURL="https://d8mrh1kj01ho9.cloudfront.net/workshop/cv1/data/"
-      FILES='example_dataset.pkl training_data.pkl test_data.pkl sample_model_output.csv'
-
-      for file in $FILES; do
-          [ ! -f "/tmp/$file" ] && cd /tmp && { curl -O "$BASEURL$file" ; cd -; }
-      done
-
+      echo "..."
       EOF
 
       # OVERVIEW

@@ -25,6 +25,9 @@ When you see the above “AWS Console Login” page, you may click “Open AWS C
 
 ![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/102.png)
 
+When this has been done, you should be able to login to the AWS console. Then you can follow the [Setup](#Setup) to launch.  <br />
+
+![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/103.png)
 
 
 ## Setup

@@ -4,7 +4,9 @@ The ML Immersion Day is a standardized Customer Engagement where participants ar
 
 The following content makes it easy for you to run through the immersion day hands on sessions. It recommends to follow these steps to start accessing the lab environment and then work on the preset notebooks:
 
-Step 1: Follow the [Setup](#Setup) to launch the SageMaker Notebook instance
+Step 1: Access the AWS Environment hashcode that you received via your email by following the [Lab Environment Access Instructions](#Lab-Environment-Access-Instructions)
+Step 2: Follow the [Setup](#Setup) to launch the SageMaker Notebook instance
+Step 2: 
 
 
 ## Setup

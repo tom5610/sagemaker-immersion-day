@@ -11,3 +11,5 @@ This is a collection training resources used for Amazon SageMaker Immersion Day 
 * [Customer Churn](notebooks/customer_churn/xgboost_customer_churn.ipynb)
 * [Bring Customer Container](notebooks/bring_customer_container/bring-custom-container.ipynb)
 * [Built-in Algorithm HPO Tabular](notebooks/builtin_algorithm_hpo_tabular/SageMaker%20XGBoost%20HPO.ipynb)
+
+## Reference

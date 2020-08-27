@@ -17,7 +17,10 @@ This workshop creates an AWS acccount environment for each participant. You will
 Connect to the portal by browsing to “team-hash-login” access link assigned to you. 
 
 ![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/101.png)
-<br /><br />
+<br />
+When you see the Team Dashboard, click the “AWS Console” shown in above red rectangular. <br />
+
+![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/102.png)
 
 
 

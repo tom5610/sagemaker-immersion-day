@@ -14,11 +14,14 @@ The following content makes it easy for you to run through the immersion day han
 ## Lab Environment Access Instructions
 
 This workshop creates an AWS acccount environment for each participant. You will need the “ team-hash-login”  URL for the AWS console access. By now you should have received the “team-hash-login” via email sent from AWS instructor. Please reach out to your AWS instructor if you haven’t received it.
-Connect to the portal by browsing to “team-hash-login” access link assigned to you. 
+Connect to the portal by browsing to “team-hash-login” access link assigned to you.  <br />
+
+When you see the Team Dashboard, click the “AWS Console” shown in red rectangular as below.
 
 ![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/101.png)
 <br />
-When you see the Team Dashboard, click the “AWS Console” shown in above red rectangular. <br />
+
+When you see the above “AWS Console Login” page, you may click “Open AWS Console” as shown in above red rectangular.  <br />
 
 ![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/102.png)
 

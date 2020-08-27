@@ -4,10 +4,10 @@ The ML Immersion Day is a standardized Customer Engagement where participants ar
 
 The following content makes it easy for you to run through the immersion day hands on sessions. It recommends to follow these steps to start accessing the lab environment and then work on the preset notebooks:
 
-Step 1: Access the AWS Environment hashcode that you received via your email by following the [Lab Environment Access Instructions](#Lab-Environment-Access-Instructions)<br />
-Step 2: Follow the [Setup](#Setup) to use prebuilt Cloudformation template to launch the SageMaker Notebook instance<br />
-Step 3: Access the SageMaker service via AWS console then run the following notebooks accordingly
-Section 1: 
+Step 1: Access the AWS Environment hashcode that you received via your email by following the [Lab Environment Access Instructions](#Lab-Environment-Access-Instructions)<br /><br />
+Step 2: Follow the [Setup](#Setup) to use prebuilt Cloudformation template to launch the SageMaker Notebook instance<br /><br />
+Step 3: Access the SageMaker service via AWS console then run the following notebooks accordingly<br />
+  <p>Section 1: <p/>
 
 ## Lab Environment Access Instructions
 

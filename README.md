@@ -7,7 +7,7 @@ The following content makes it easy for you to run through the immersion day han
 Step 1: Access the AWS Environment hashcode that you received via your email by following the [Lab Environment Access Instructions](#Lab-Environment-Access-Instructions)<br /><br />
 Step 2: Follow the [Setup](#Setup) to use prebuilt Cloudformation template to launch the SageMaker Notebook instance<br /><br />
 Step 3: Access the SageMaker service via AWS console then run the following notebooks accordingly<br />
-  <p>Section 1: Customer Churn Lab -- [Notebook-Link](https://github.com/tom5610/sagemaker-immersion-day/blob/master/notebooks/customer_churn/xgboost_sagemaker_customer_churn.ipynb)<p/>
+  Section 1: Customer Churn Lab -- [Notebook Link](https://github.com/tom5610/sagemaker-immersion-day/blob/master/notebooks/customer_churn/xgboost_sagemaker_customer_churn.ipynb/)
 
 ## Lab Environment Access Instructions
 

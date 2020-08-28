@@ -46,9 +46,11 @@ It takes a few minutes to finish lauching the Cloudformation template. Once it's
 
 ## Labs
 
-* [Customer Churn](notebooks/customer_churn/xgboost_customer_churn.ipynb)
-* [Bring Customer Container](notebooks/bring_customer_container/bring-custom-container.ipynb)
-* [Built-in Algorithm HPO Tabular](notebooks/builtin_algorithm_hpo_tabular/SageMaker%20XGBoost%20HPO.ipynb)
+There're 3 LABs in this immersion day shown as below. The notebooks have been included in the SageMaker instance that you've launched via the Cloudformation template. So you can access the SageMaker Notebook to start exploring the Lab in sequence.
+
+* LAB 1:[Customer Churn](notebooks/customer_churn/xgboost_customer_churn.ipynb)
+* LAB 2:[Autopilot Customer Churn](https://github.com/tom5610/sagemaker-immersion-day/blob/master/notebooks/autopilot_customer_churn/autopilot_customer_churn.ipynb)
+* LAB 3:[Built-in Algorithm HPO Tabular](notebooks/builtin_algorithm_hpo_tabular/SageMaker%20XGBoost%20HPO.ipynb)
 
 
 

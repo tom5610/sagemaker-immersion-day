@@ -32,7 +32,7 @@ When this has been done, you should be able to login to the AWS console. Then yo
 
 ## Setup
 
-[Launch Stack](https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/stacks/new?stackName=SageMaker-Immersion-Day&templateURL=https://sagemaker-immersion-day-sep-2020.s3.amazonaws.com/cfn/sagemaker-immersion-day.yaml)
+[Launch Stack](https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/stacks/new?stackName=SageMaker-Immersion-Day&templateURL=https://lfs-immersion-day-2020902.s3.amazonaws.com/sagemaker-immersion-day.yaml)
 
 ## Labs
 

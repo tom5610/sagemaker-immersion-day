@@ -57,6 +57,9 @@ In the SageMaker service page, go to "Notebook instances" then you should be abl
 
 ![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/106.png)
 
+Once you access the SageMaker Jupyter Notebook, please enter the "notebooks" folder to load the Jupyter notebook accordingly. You will be working on the LAB in breakout web meeting sessions. Please reach out to the LAB instructor if you have any questions during the lab.
+
+
 
 <br /><br />
 ## Reference

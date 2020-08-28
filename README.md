@@ -27,7 +27,7 @@ When you see the above “AWS Console Login” page, you may click “Open AWS C
 
 When this has been done, you should be able to login to the AWS console. Then you can follow the [Setup](#Setup) to launch.  <br />
 
-![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/103.png)
+![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/103.png)<br />
 
 
 ## Setup
@@ -38,21 +38,25 @@ You may leave the parameters as default as most of them have been populated auto
 
 ![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/104.png)
 
-It takes a few minutes to finish lauching the Cloudformation template. Once it's done, you can get access to the SageMaker service through the search bar in AWS console as shown below
-
-![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/105.png)
-
+It takes a few minutes to finish lauching the Cloudformation template. Once it's done, you can get access to the SageMaker service to run the lab.
+<br />
 
 
 ## Labs
 
 There're 3 LABs in this immersion day shown as below. The notebooks have been included in the SageMaker instance that you've launched via the Cloudformation template. So you can access the SageMaker Notebook to start exploring the Lab in sequence.
 
-* LAB 1:[Customer Churn](notebooks/customer_churn/xgboost_customer_churn.ipynb)
-* LAB 2:[Autopilot Customer Churn](https://github.com/tom5610/sagemaker-immersion-day/blob/master/notebooks/autopilot_customer_churn/autopilot_customer_churn.ipynb)
-* LAB 3:[Built-in Algorithm HPO Tabular](notebooks/builtin_algorithm_hpo_tabular/SageMaker%20XGBoost%20HPO.ipynb)
+* LAB 1: [Customer Churn](notebooks/customer_churn/xgboost_customer_churn.ipynb)
+* LAB 2: [Autopilot Customer Churn](https://github.com/tom5610/sagemaker-immersion-day/blob/master/notebooks/autopilot_customer_churn/autopilot_customer_churn.ipynb)
+* LAB 3: [Built-in Algorithm HPO Tabular](notebooks/builtin_algorithm_hpo_tabular/SageMaker%20XGBoost%20HPO.ipynb)<br />
+
+To start the lab, you can get access to the SageMaker service through the search bar in AWS console as shown below.
+![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/105.png)
+
+In the SageMaker service page, go to "Notebook instances" then you should be able to see a up and running Notebook instance called "SageMaker-Immersion-Day", then click the "Open Jupyter" to access the SageMaker Jupyter Notebook.
+
+![Image of Yaktocat](https://github.com/tom5610/sagemaker-immersion-day/blob/master/images/106.png)
 
 
-
-
+<br /><br />
 ## Reference

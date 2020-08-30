@@ -32,7 +32,7 @@ When this has been done, you should be able to login to the AWS console. Then yo
 
 ## Setup
 
-Once you've logged into the AWS console, you can Click this link [Launch Stack](https://console.aws.amazon.com/cloudformation/home?region=ap-southeast-2#/stacks/new?stackName=SageMaker-Immersion-Day&templateURL=https://lfs-immersion-day-2020902.s3.amazonaws.com/sagemaker-immersion-day.yaml) to launch the Cloudformation stack, which will spin up the Sagemaker Notebook instance that you will use to run the LAB.
+Once you've logged into the AWS console, you can Click this link [Launch Stack](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/new?stackName=SageMaker-Immersion-Day&templateURL=https://lfs-immersion-day-2020902.s3.amazonaws.com/sagemaker-immersion-day.yaml) to launch the Cloudformation stack, which will spin up the Sagemaker Notebook instance that you will use to run the LAB.
 
 You may leave the parameters as default as most of them have been populated automatically by the Cloudformation template. Click "Next" to the review page then tick the box to acknoledge that AWS CloudFormation might create IAM resources as shown below. Then click "Create stack"
 

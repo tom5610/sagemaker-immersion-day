@@ -7,9 +7,9 @@ The following content makes it easy for you to run through the immersion day han
 * Step 1: Access the AWS Environment hashcode that you received via your email by following the [Lab Environment Access Instructions](#Lab-Environment-Access-Instructions)<br /><br />
 * Step 2: Follow the [Setup](#Setup) to use prebuilt Cloudformation template to launch the SageMaker Notebook instance<br /><br />
 * Step 3: Access the SageMaker service via AWS console then run the following notebooks accordingly<br />
-** Section 1: Customer Churn Lab -- [Notebook Link](https://github.com/tom5610/sagemaker-immersion-day/blob/master/notebooks/customer_churn/xgboost_sagemaker_customer_churn.ipynb)<br />
-** Section 2: Customer Churn Autopilot Lab -- [Notebook Link](https://github.com/tom5610/sagemaker-immersion-day/blob/master/notebooks/customer_churn/xgboost_sagemaker_customer_churn.ipynb/)<br />
-** Section 3: Hyperparameter Optimisation -- [Notebook Link](https://github.com/tom5610/sagemaker-immersion-day/blob/master/notebooks/builtin_algorithm_hpo_tabular/SageMaker%20XGBoost%20HPO.ipynb)<br /><br />
+** Section 1: Customer Churn Lab -- [Notebook Link](https://github.com/tom5610/sagemaker-immersion-day/blob/master/notebooks/Lab1_customer_churn/xgboost_sagemaker_customer_churn.ipynb)<br />
+** Section 2: Customer Churn Autopilot Lab -- [Notebook Link](https://github.com/tom5610/sagemaker-immersion-day/blob/master/notebooks/Lab2_customer_churn/xgboost_sagemaker_customer_churn.ipynb/)<br />
+** Section 3: Hyperparameter Optimisation -- [Notebook Link](https://github.com/tom5610/sagemaker-immersion-day/blob/master/notebooks/Lab3_builtin_algorithm_hpo_tabular/SageMaker%20XGBoost%20HPO.ipynb)<br /><br />
 
 ## Lab Environment Access Instructions
 
